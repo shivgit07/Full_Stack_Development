@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Sign In/Sign Up</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+  <div class="flex min-h-screen items-center justify-center">
+    <div class="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8">
+      <!-- Left Image Section -->
+      <div class="hidden md:block">
+        <img src="https://i.imgur.com/DtDScQk.jpg" alt="Phone image" class="w-96">
+      </div>
+      <!-- Right Form Section -->
+      <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+        <div class="flex justify-center mb-6">
+          <img class="h-24 w-auto" src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202212/instagram-users-irked-with-the-new-update-sixteen_nine.jpg?size=948:533" alt="Instagram Logo">
+        </div>
+        <form class="space-y-6">
+          <div class="rounded-md shadow-sm -space-y-px">
+            <div>
+              <label for="email-address" class="sr-only">Phone number, username, or email</label>
+              <input id="email-address" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Phone number, username, or email">
+            </div>
+            <div>
+              <label for="password" class="sr-only">Password</label>
+              <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password">
+            </div>
+          </div>
+
+          <div>
+            <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+              Log in
+            </button>
+          </div>
+
+          <div class="flex items-center justify-center mt-6">
+            <div class="text-sm">
+              <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_US%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%252214turrb109hxb1sn1vkewkdq7a14a2hra1chmn7h1rcv2y079lglr%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D73013bd2-f027-4208-b446-b98e06f58d6c%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252214turrb109hxb1sn1vkewkdq7a14a2hra1chmn7h1rcv2y079lglr%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0" class="font-medium text-blue-600 hover:text-blue-500">Log in with Facebook</a>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center mt-6">
+            <div class="text-sm">
+              <a href="https://www.instagram.com/accounts/password/reset/" class="font-medium text-blue-600 hover:text-blue-500">Forgot password?</a>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center mt-6">
+            <div class="text-sm">
+              <span>Don't have an account? </span><a href="https://www.instagram.com/accounts/emailsignup/" class="font-medium text-blue-600 hover:text-blue-500">Sign up</a>
+            </div>
+          </div>
+        </form>
+
+        <!-- Download App Links -->
+        <div class="mt-6">
+          <div class="text-center text-sm text-gray-600 mb-4">Get the app.</div>
+          <div class="flex justify-center space-x-4">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN&pli=1"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" class="h-10"></a>
+            <a href="https://apps.apple.com/us/app/instagram/id389801252"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Get it on App Store" class="h-10"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
